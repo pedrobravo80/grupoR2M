@@ -2294,3 +2294,9 @@ a:focus {
 .service-container {
     padding: 158px 0 168px 0;
 }
+.height {
+    object-fit: cover;
+    height: 400px;
+    margin-top: 20px;
+    width: 350px;
+}
