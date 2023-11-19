@@ -595,7 +595,7 @@ a:focus {
 .about {
     position: relative;
     width: 100%;
-    padding: 120px 0;
+ 
     background-color: #eeeeec;
 }
 
@@ -2298,5 +2298,26 @@ a:focus {
     object-fit: cover;
     height: 400px;
     margin-top: 20px;
-    width: 350px;
+    width: 350px !important;
+}
+.portfolio-img img {
+    object-fit: cover;
+   
+    margin-top: 20px;
+    width: 350px !important;
+}
+
+.contact-formulary {
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+}
+
+.min-w {
+    min-width: 415px;
+}
+
+.about-text.about-center {
+   
+    margin-bottom: 150px !important;
 }
