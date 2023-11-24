@@ -81,7 +81,7 @@ a:focus {
 .top-bar {
     position: relative;
     height: 128px;
-    background: #eeeeec;
+    background: #272727;
 }
 .top-bar .logo {
     padding: 15px 0;
@@ -117,7 +117,7 @@ a:focus {
 
 .top-bar .top-bar-icon [class^="flaticon-"]::before {
     margin: 0;
-    color: #030f27;
+    color: #fdfdfd;
     font-size: 40px;
 }
 
@@ -127,14 +127,14 @@ a:focus {
 
 .top-bar .top-bar-text h3 {
     margin: 0 0 5px 0;
-    color: #030f27;
+    color: #ffffff;
     font-size: 16px;
     font-weight: 400;
 }
 
 .top-bar .top-bar-text p {
     margin: 0;
-    color: #030f27;
+    color: #ffffff;
     font-size: 13px;
     font-weight: 400;
 }
@@ -596,7 +596,7 @@ a:focus {
     position: relative;
     width: 100%;
  
-    background-color: #eeeeec;
+    background-color: #191919;
 }
 
 .about .section-header {
@@ -2304,7 +2304,7 @@ a:focus {
     object-fit: cover;
    
     margin-top: 20px;
-    width: 350px !important;
+    height: 340px;
 }
 
 .contact-formulary {
@@ -2321,3 +2321,38 @@ a:focus {
    
     margin-bottom: 150px !important;
 }
+
+.video-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .both-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .big {
+    width: 1070px;
+    height: 504px;
+    object-fit: cover;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+ .big { width: 100%;
+    height: 277px;
+    object-fit: cover;}
+   
+  }
+  
